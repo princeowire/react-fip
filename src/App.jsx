@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <>
-      <h1>ToDo List (React)</h1>
+      <h1>ToDo List</h1>
       <AddTodo onAdd={addTodo} />
       <TodoList todos={todos} onToggle={toggleDone} onDelete={deleteTodo} />
     </>
